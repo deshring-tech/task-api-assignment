@@ -1,12 +1,12 @@
-# Submission Notes
+﻿# Submission Notes
 
-**Live API:** `<LIVE_URL>`  ·  **Repo:** https://github.com/deshring-tech/task-api-assignment
+**Live API:** https://task-api-fmuu.onrender.com  ·  **Repo:** https://github.com/deshring-tech/task-api-assignment
 
 Quick checks against the live link:
 ```bash
-curl <LIVE_URL>/
-curl -X POST <LIVE_URL>/tasks -H "Content-Type: application/json" -d '{"title":"Write tests","priority":"high"}'
-curl -X PATCH <LIVE_URL>/tasks/<id>/assign -H "Content-Type: application/json" -d '{"assignee":"Alice"}'
+curl https://task-api-fmuu.onrender.com/
+curl -X POST https://task-api-fmuu.onrender.com/tasks -H "Content-Type: application/json" -d '{"title":"Write tests","priority":"high"}'
+curl -X PATCH https://task-api-fmuu.onrender.com/tasks/<id>/assign -H "Content-Type: application/json" -d '{"assignee":"Alice"}'
 ```
 > The store is in memory, and free hosting sleeps when idle, so data resets after a cold start. The first request can take a few seconds.
 
