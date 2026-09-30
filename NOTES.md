@@ -1,6 +1,6 @@
 # Submission Notes
 
-**Live API:** `<LIVE_URL>`  ·  **Repo:** `<REPO_URL>`
+**Live API:** `<LIVE_URL>`  ·  **Repo:** https://github.com/deshring-tech/task-api-assignment
 
 Quick checks against the live link:
 ```bash
