@@ -1,0 +1,10 @@
+# One-click deploy on Render (free tier): New → Blueprint → select this repo.
+services:
+  - type: web
+    name: task-api
+    runtime: node
+    plan: free
+    rootDir: task-api
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /
